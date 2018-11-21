@@ -1,0 +1,1047 @@
+2018-11-21 09:18:14,700 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogParserWebSimulator v1.4.2.RELEASE on Uttam-PC with PID 2828 (D:\Sample Projects\CTS\Log-Parser\target\LogParser.war started by Uttam in D:\Sample Projects\CTS\Log-Parser)
+2018-11-21 09:18:14,766 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2018-11-21 09:18:14,821 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2018-11-21 09:18:15,457 INFO org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1cf6d1be: startup date [Wed Nov 21 09:18:15 IST 2018]; root of context hierarchy
+2018-11-21 09:18:17,785 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.2.4.Final
+2018-11-21 09:18:37,503 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f2a9def] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-21 09:18:44,530 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [main] Tomcat initialized with port(s): 8888 (http)
+2018-11-21 09:18:44,735 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service Tomcat
+2018-11-21 09:18:44,757 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-11-21 09:18:59,896 INFO org.apache.juli.logging.DirectJDKLog [localhost-startStop-1] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-11-21 09:19:02,107 INFO org.apache.juli.logging.DirectJDKLog [localhost-startStop-1] Initializing Spring embedded WebApplicationContext
+2018-11-21 09:19:02,112 INFO org.springframework.boot.context.embedded.EmbeddedWebApplicationContext [localhost-startStop-1] Root WebApplicationContext: initialization completed in 46655 ms
+2018-11-21 09:19:03,756 INFO org.springframework.boot.web.servlet.ServletRegistrationBean [localhost-startStop-1] Mapping servlet: 'dispatcherServlet' to [/]
+2018-11-21 09:19:03,817 INFO org.springframework.boot.web.servlet.AbstractFilterRegistrationBean [localhost-startStop-1] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-21 09:19:07,118 INFO org.springframework.jdbc.datasource.init.ScriptUtils [main] Executing SQL script from URL [jar:file:/D:/Sample%20Projects/CTS/Log-Parser/target/LogParser.war!/WEB-INF/classes!/schema.sql]
+2018-11-21 09:19:07,190 INFO org.springframework.jdbc.datasource.init.ScriptUtils [main] Executed SQL script from URL [jar:file:/D:/Sample%20Projects/CTS/Log-Parser/target/LogParser.war!/WEB-INF/classes!/schema.sql] in 70 ms.
+2018-11-21 09:19:07,250 INFO org.springframework.jdbc.datasource.init.ScriptUtils [main] Executing SQL script from URL [jar:file:/D:/Sample%20Projects/CTS/Log-Parser/target/LogParser.war!/WEB-INF/classes!/data.sql]
+2018-11-21 09:19:07,264 INFO org.springframework.jdbc.datasource.init.ScriptUtils [main] Executed SQL script from URL [jar:file:/D:/Sample%20Projects/CTS/Log-Parser/target/LogParser.war!/WEB-INF/classes!/data.sql] in 12 ms.
+2018-11-21 09:19:08,811 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-11-21 09:19:08,990 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-11-21 09:19:09,863 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.0.11.Final}
+2018-11-21 09:19:09,900 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2018-11-21 09:19:09,914 INFO org.hibernate.cfg.Environment [main] HHH000021: Bytecode provider name : javassist
+2018-11-21 09:19:10,472 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-11-21 09:19:12,597 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-11-21 09:19:17,496 INFO org.hibernate.tool.hbm2ddl.SchemaExport [main] HHH000227: Running hbm2ddl schema export
+2018-11-21 09:19:17,621 INFO org.hibernate.tool.hbm2ddl.SchemaExport [main] HHH000230: Schema export complete
+2018-11-21 09:19:17,693 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2018-11-21 09:19:18,967 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-11-21 09:19:22,226 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/]}" onto public java.lang.String com.cs.log.controller.LoginController.todoApp(java.util.Map<java.lang.String, java.lang.Object>)
+2018-11-21 09:19:22,241 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/eventList],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.cs.log.controller.LogParserController.list(com.cs.log.dto.DataTableProps,org.springframework.web.servlet.ModelAndView)
+2018-11-21 09:19:22,243 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/startFileProcessor],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.cs.log.controller.LogParserController.startFileProcessor(java.lang.String)
+2018-11-21 09:19:22,247 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/prepareJsonData],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.cs.log.controller.LogParserController.prepareJsonData(java.lang.String,java.lang.Long)
+2018-11-21 09:19:22,250 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/getDataPreparationStatusForFile],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.cs.log.dto.ProcessStatus> com.cs.log.controller.LogParserController.getDataPreparationStatusForFile(java.lang.String)
+2018-11-21 09:19:22,253 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/getDataParsingStatusForFile],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.cs.log.dto.ProcessStatus> com.cs.log.controller.LogParserController.getDataParsingStatusForFile(java.lang.String)
+2018-11-21 09:19:22,280 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-11-21 09:19:22,283 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-21 09:19:23,006 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping [main] Mapped URL path [/resource/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-21 09:19:23,046 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping [main] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+2018-11-21 09:19:24,445 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1cf6d1be: startup date [Wed Nov 21 09:18:15 IST 2018]; root of context hierarchy
+2018-11-21 09:19:34,960 INFO org.springframework.jmx.export.MBeanExporter [main] Registering beans for JMX exposure on startup
+2018-11-21 09:19:35,147 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8888"]
+2018-11-21 09:19:35,466 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler [http-nio-8888]
+2018-11-21 09:19:35,646 INFO org.apache.juli.logging.DirectJDKLog [main] Using a shared selector for servlet write/read
+2018-11-21 09:19:36,177 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [main] Tomcat started on port(s): 8888 (http)
+2018-11-21 09:19:36,290 INFO org.springframework.boot.StartupInfoLogger [main] Started LogParserWebSimulator in 87.748 seconds (JVM running for 94.3)
+2018-11-21 09:19:37,165 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8888-exec-1] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-21 09:19:37,167 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8888-exec-1] FrameworkServlet 'dispatcherServlet': initialization started
+2018-11-21 09:19:41,661 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8888-exec-1] FrameworkServlet 'dispatcherServlet': initialization completed in 4493 ms
+2018-11-21 09:19:56,685 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8888-exec-1] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [309] milliseconds.
+2018-11-21 09:21:21,551 INFO com.cs.log.service.util.LogJsonParser [ForkJoinPool.commonPool-worker-1] JSON file created successfully at - D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:21:46,111 INFO com.cs.log.service.util.LogJsonParser [ForkJoinPool.commonPool-worker-1] JSON file created successfully at - D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:21:58,069 INFO com.cs.log.service.util.FileChunker [http-nio-8888-exec-9] new file created 'D:\Sample Projects\CTS\Log-Parser\data\staging\LogParser_split\LogParser_01.json
+2018-11-21 09:21:58,998 INFO com.cs.log.service.util.FileChunker [http-nio-8888-exec-9] , 648002 lines written to file
+2018-11-21 09:21:59,002 INFO com.cs.log.service.util.FileChunker [http-nio-8888-exec-9] file 'LogParser.json' split into 1 files
+2018-11-21 09:22:00,882 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:22:00,885 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:22:00,889 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:22:00,890 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:22:00,892 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:22:00,892 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:22:00,893 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:22:00,894 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:22:00,895 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:22:00,896 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:22:00,896 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 7500 to High --: 8001
+2018-11-21 09:22:00,898 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:22:00,900 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:22:00,902 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 5500 to High --: 6000
+2018-11-21 09:22:00,907 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 3500 to High --: 4000
+2018-11-21 09:22:04,704 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:22:04,706 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:22:04,707 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 6500 to High --: 7000
+2018-11-21 09:22:06,244 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:22:06,245 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 6000 to High --: 6500
+2018-11-21 09:22:09,965 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:09,994 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 6000 to High --: 6500
+2018-11-21 09:22:10,010 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:22:10,014 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 7000 to High --: 7500
+2018-11-21 09:22:11,614 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:11,630 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 6500 to High --: 7000
+2018-11-21 09:22:11,637 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:22:11,644 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:22:11,649 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:22:11,651 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 1500 to High --: 2000
+2018-11-21 09:22:14,782 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:14,864 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 7500 to High --: 8001
+2018-11-21 09:22:14,911 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:22:14,924 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:22:14,928 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 2500 to High --: 3000
+2018-11-21 09:22:18,540 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:18,569 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 7000 to High --: 7500
+2018-11-21 09:22:18,599 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:22:18,622 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 2000 to High --: 2500
+2018-11-21 09:22:21,875 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:21,894 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 2500 to High --: 3000
+2018-11-21 09:22:21,902 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:22:21,904 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 3000 to High --: 3500
+2018-11-21 09:22:23,257 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:23,270 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 2000 to High --: 2500
+2018-11-21 09:22:23,275 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:22:23,276 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:22:23,277 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 500 to High --: 1000
+2018-11-21 09:22:25,462 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:25,480 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 3000 to High --: 3500
+2018-11-21 09:22:25,490 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:22:25,493 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:22:25,495 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 4500 to High --: 5000
+2018-11-21 09:22:27,692 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:22:27,695 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 5000 to High --: 5500
+2018-11-21 09:22:28,502 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:28,529 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 3500 to High --: 4000
+2018-11-21 09:22:28,540 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:22:28,542 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 1000 to High --: 1500
+2018-11-21 09:22:31,358 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:31,369 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 5000 to High --: 5500
+2018-11-21 09:22:31,385 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:22:31,397 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 4000 to High --: 4500
+2018-11-21 09:22:32,573 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:32,591 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 1000 to High --: 1500
+2018-11-21 09:22:33,177 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:33,189 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 1500 to High --: 2000
+2018-11-21 09:22:33,193 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:22:33,194 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 0 to High --: 500
+2018-11-21 09:22:33,237 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:33,245 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 5500 to High --: 6000
+2018-11-21 09:22:34,812 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:34,821 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 4000 to High --: 4500
+2018-11-21 09:22:36,092 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:36,105 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 4500 to High --: 5000
+2018-11-21 09:22:36,394 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:36,406 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 500 to High --: 1000
+2018-11-21 09:22:36,762 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:36,768 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 0 to High --: 500
+2018-11-21 09:22:37,000 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:22:37,007 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:22:37,007 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:22:37,010 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:22:37,011 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:22:37,013 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:22:37,013 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:22:37,016 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:22:37,018 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:22:37,021 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:22:37,024 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:22:37,025 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:22:37,026 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Low  -- : 7500 to High --: 8001
+2018-11-21 09:22:37,027 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:22:37,028 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 5500 to High --: 6000
+2018-11-21 09:22:37,029 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 3500 to High --: 4000
+2018-11-21 09:22:37,064 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:22:37,139 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:22:37,141 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 1500 to High --: 2000
+2018-11-21 09:22:40,793 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:22:40,806 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:22:40,808 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 2500 to High --: 3000
+2018-11-21 09:22:41,594 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:22:41,688 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:22:41,689 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 4500 to High --: 5000
+2018-11-21 09:22:42,874 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:22:42,875 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 2000 to High --: 2500
+2018-11-21 09:22:45,413 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:45,424 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 2500 to High --: 3000
+2018-11-21 09:22:46,562 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:46,568 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 2000 to High --: 2500
+2018-11-21 09:22:46,571 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:22:46,572 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:22:46,572 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 4000 to High --: 4500
+2018-11-21 09:22:46,579 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 3000 to High --: 3500
+2018-11-21 09:22:49,486 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:49,490 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 4000 to High --: 4500
+2018-11-21 09:22:49,491 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:49,500 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 3000 to High --: 3500
+2018-11-21 09:22:49,501 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:22:49,502 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 5000 to High --: 5500
+2018-11-21 09:22:49,518 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:22:49,542 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:22:49,637 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 500 to High --: 1000
+2018-11-21 09:22:51,945 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:51,956 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 4500 to High --: 5000
+2018-11-21 09:22:51,957 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:22:51,958 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 1000 to High --: 1500
+2018-11-21 09:22:52,437 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:52,443 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 3500 to High --: 4000
+2018-11-21 09:22:52,550 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:52,575 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 5500 to High --: 6000
+2018-11-21 09:22:53,709 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:53,715 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 5000 to High --: 5500
+2018-11-21 09:22:53,720 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:22:53,721 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:22:53,722 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 0 to High --: 500
+2018-11-21 09:22:53,735 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:22:53,768 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 6500 to High --: 7000
+2018-11-21 09:22:55,444 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:55,453 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 1500 to High --: 2000
+2018-11-21 09:22:56,606 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:56,617 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 500 to High --: 1000
+2018-11-21 09:22:58,038 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:58,048 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 1000 to High --: 1500
+2018-11-21 09:22:58,050 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:22:58,051 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 7000 to High --: 7500
+2018-11-21 09:22:58,407 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:58,413 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 0 to High --: 500
+2018-11-21 09:22:58,415 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:22:58,416 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 6000 to High --: 6500
+2018-11-21 09:22:59,232 INFO com.cs.log.service.spi.FileProcessorEventService [http-nio-8888-exec-9] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:59,234 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Processed ==::: Low  -- : 7500 to High --: 8001
+2018-11-21 09:22:59,254 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:22:59,259 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 6500 to High --: 7000
+2018-11-21 09:23:00,926 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:00,933 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 7000 to High --: 7500
+2018-11-21 09:23:01,206 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:01,210 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 6000 to High --: 6500
+2018-11-21 09:23:01,373 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:23:01,374 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:23:01,375 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:23:01,376 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:23:01,377 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:23:01,378 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:23:01,378 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:23:01,379 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:23:01,380 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:23:01,386 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:23:01,387 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:23:01,388 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:23:01,388 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:23:01,388 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:23:01,389 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:23:01,389 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Low  -- : 7500 to High --: 8001
+2018-11-21 09:23:01,389 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 5500 to High --: 6000
+2018-11-21 09:23:01,390 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 3500 to High --: 4000
+2018-11-21 09:23:01,391 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 1500 to High --: 2000
+2018-11-21 09:23:05,020 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:23:05,023 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:23:05,027 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 500 to High --: 1000
+2018-11-21 09:23:05,101 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:23:05,102 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:23:05,115 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 2500 to High --: 3000
+2018-11-21 09:23:05,539 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:23:05,540 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 0 to High --: 500
+2018-11-21 09:23:09,502 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:09,511 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 500 to High --: 1000
+2018-11-21 09:23:09,745 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:09,753 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 0 to High --: 500
+2018-11-21 09:23:09,754 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:23:09,761 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 1000 to High --: 1500
+2018-11-21 09:23:09,762 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:23:09,799 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:23:09,802 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 6500 to High --: 7000
+2018-11-21 09:23:11,519 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:11,526 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 1500 to High --: 2000
+2018-11-21 09:23:13,855 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:13,859 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 1000 to High --: 1500
+2018-11-21 09:23:13,861 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:23:13,862 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 3000 to High --: 3500
+2018-11-21 09:23:13,865 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:23:13,869 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:23:13,874 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 4500 to High --: 5000
+2018-11-21 09:23:14,715 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:14,720 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 3500 to High --: 4000
+2018-11-21 09:23:14,720 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:23:14,721 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 2000 to High --: 2500
+2018-11-21 09:23:17,518 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:17,522 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 3000 to High --: 3500
+2018-11-21 09:23:17,523 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:23:17,524 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 6000 to High --: 6500
+2018-11-21 09:23:17,941 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:17,947 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 2000 to High --: 2500
+2018-11-21 09:23:19,744 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:19,748 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 6000 to High --: 6500
+2018-11-21 09:23:19,756 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:23:19,758 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 7000 to High --: 7500
+2018-11-21 09:23:19,990 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:19,994 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 2500 to High --: 3000
+2018-11-21 09:23:19,995 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:23:19,996 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 4000 to High --: 4500
+2018-11-21 09:23:20,005 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:23:20,007 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 5000 to High --: 5500
+2018-11-21 09:23:20,023 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:20,065 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 6500 to High --: 7000
+2018-11-21 09:23:21,830 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:21,848 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 4500 to High --: 5000
+2018-11-21 09:23:22,029 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:22,035 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 5500 to High --: 6000
+2018-11-21 09:23:22,269 INFO com.cs.log.service.spi.FileProcessorEventService [http-nio-8888-exec-9] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:22,273 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Processed ==::: Low  -- : 7500 to High --: 8001
+2018-11-21 09:23:23,425 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:23,433 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 7000 to High --: 7500
+2018-11-21 09:23:24,105 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:24,113 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 5000 to High --: 5500
+2018-11-21 09:23:24,247 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:24,253 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 4000 to High --: 4500
+2018-11-21 09:23:24,484 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:23:24,485 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:23:24,488 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:23:24,489 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:23:24,490 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:23:24,491 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:23:24,492 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:23:24,496 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:23:24,497 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:23:24,498 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:23:24,499 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:23:24,499 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:23:24,499 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 7500 to High --: 8001
+2018-11-21 09:23:24,500 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 3500 to High --: 4000
+2018-11-21 09:23:24,500 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 5500 to High --: 6000
+2018-11-21 09:23:27,855 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:23:27,856 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:23:27,857 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 4500 to High --: 5000
+2018-11-21 09:23:28,042 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:23:28,043 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:23:28,043 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:23:28,044 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 1500 to High --: 2000
+2018-11-21 09:23:28,054 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:23:28,055 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:23:28,056 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 6500 to High --: 7000
+2018-11-21 09:23:31,046 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 09:23:31,047 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Low  -- : 7000 to High --: 7500
+2018-11-21 09:23:33,467 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-15] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:33,479 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Processed ==::: Low  -- : 7000 to High --: 7500
+2018-11-21 09:23:33,489 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 09:23:33,490 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Low  -- : 5000 to High --: 5500
+2018-11-21 09:23:33,851 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:33,855 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 7500 to High --: 8001
+2018-11-21 09:23:33,858 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:23:33,858 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:23:33,859 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 2500 to High --: 3000
+2018-11-21 09:23:36,141 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-15] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:36,148 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Processed ==::: Low  -- : 5000 to High --: 5500
+2018-11-21 09:23:36,151 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 09:23:36,152 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 09:23:36,153 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Low  -- : 500 to High --: 1000
+2018-11-21 09:23:36,887 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:36,894 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 5500 to High --: 6000
+2018-11-21 09:23:36,895 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:23:36,898 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 4000 to High --: 4500
+2018-11-21 09:23:39,740 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:39,744 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 4000 to High --: 4500
+2018-11-21 09:23:39,748 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-8] Current Threshold  --> 800
+2018-11-21 09:23:39,749 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-8] Low  -- : 2000 to High --: 2500
+2018-11-21 09:23:42,137 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-8] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:42,141 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-8] Processed ==::: Low  -- : 2000 to High --: 2500
+2018-11-21 09:23:42,146 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-8] Current Threshold  --> 800
+2018-11-21 09:23:42,147 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-8] Low  -- : 3000 to High --: 3500
+2018-11-21 09:23:42,337 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:42,341 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 2500 to High --: 3000
+2018-11-21 09:23:42,342 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:23:42,343 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 6000 to High --: 6500
+2018-11-21 09:23:44,777 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-8] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:44,785 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-8] Processed ==::: Low  -- : 3000 to High --: 3500
+2018-11-21 09:23:44,795 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-8] Current Threshold  --> 800
+2018-11-21 09:23:44,804 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-8] Low  -- : 0 to High --: 500
+2018-11-21 09:23:45,189 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:45,213 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 6000 to High --: 6500
+2018-11-21 09:23:46,306 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:46,313 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 6500 to High --: 7000
+2018-11-21 09:23:46,323 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:23:46,330 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 1000 to High --: 1500
+2018-11-21 09:23:46,885 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:46,898 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 3500 to High --: 4000
+2018-11-21 09:23:47,037 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:47,045 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 4500 to High --: 5000
+2018-11-21 09:23:47,457 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-15] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:47,466 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Processed ==::: Low  -- : 500 to High --: 1000
+2018-11-21 09:23:47,883 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:47,891 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 1500 to High --: 2000
+2018-11-21 09:23:48,454 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-8] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:48,459 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-8] Processed ==::: Low  -- : 0 to High --: 500
+2018-11-21 09:23:49,136 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:49,141 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 1000 to High --: 1500
+2018-11-21 09:23:49,267 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:23:49,269 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:23:49,269 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:23:49,270 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:23:49,271 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:23:49,271 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:23:49,271 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:23:49,276 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:23:49,277 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:23:49,278 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:23:49,279 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:23:49,279 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:23:49,280 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:23:49,282 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:23:49,283 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:23:49,284 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Low  -- : 7500 to High --: 8001
+2018-11-21 09:23:49,285 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 5500 to High --: 6000
+2018-11-21 09:23:49,285 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 3500 to High --: 4000
+2018-11-21 09:23:49,290 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 1500 to High --: 2000
+2018-11-21 09:23:53,291 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:23:53,292 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:23:53,295 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 4500 to High --: 5000
+2018-11-21 09:23:53,544 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 09:23:53,550 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Low  -- : 4000 to High --: 4500
+2018-11-21 09:23:54,041 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-8] Current Threshold  --> 800
+2018-11-21 09:23:54,042 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-8] Current Threshold  --> 800
+2018-11-21 09:23:54,043 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-8] Low  -- : 500 to High --: 1000
+2018-11-21 09:23:56,909 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:56,913 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 4500 to High --: 5000
+2018-11-21 09:23:56,914 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:23:56,915 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 1000 to High --: 1500
+2018-11-21 09:23:57,118 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-15] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:57,125 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Processed ==::: Low  -- : 4000 to High --: 4500
+2018-11-21 09:23:57,126 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:23:57,127 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 5000 to High --: 5500
+2018-11-21 09:23:57,129 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 09:23:57,131 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 09:23:57,132 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Low  -- : 2500 to High --: 3000
+2018-11-21 09:23:57,165 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:23:57,173 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 2000 to High --: 2500
+2018-11-21 09:23:57,960 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:58,002 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 1500 to High --: 2000
+2018-11-21 09:23:58,064 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:23:58,065 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:23:58,071 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 5500 to High --: 6000
+2018-11-21 09:23:58,073 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 0 to High --: 500
+2018-11-21 09:24:01,166 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:01,173 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 1000 to High --: 1500
+2018-11-21 09:24:01,181 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:24:01,183 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:24:01,184 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 6500 to High --: 7000
+2018-11-21 09:24:01,717 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-15] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:01,723 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Processed ==::: Low  -- : 2500 to High --: 3000
+2018-11-21 09:24:02,202 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:02,207 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 5000 to High --: 5500
+2018-11-21 09:24:02,208 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:24:02,208 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 7000 to High --: 7500
+2018-11-21 09:24:02,213 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:24:02,231 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:02,272 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 6000 to High --: 6500
+2018-11-21 09:24:02,505 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 2000 to High --: 2500
+2018-11-21 09:24:02,574 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 09:24:02,575 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Low  -- : 3000 to High --: 3500
+2018-11-21 09:24:03,324 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:03,331 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 0 to High --: 500
+2018-11-21 09:24:03,336 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:03,436 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 3500 to High --: 4000
+2018-11-21 09:24:03,949 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-8] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:04,047 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-8] Processed ==::: Low  -- : 500 to High --: 1000
+2018-11-21 09:24:05,156 INFO com.cs.log.service.spi.FileProcessorEventService [http-nio-8888-exec-9] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:05,158 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Processed ==::: Low  -- : 7500 to High --: 8001
+2018-11-21 09:24:05,858 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:05,863 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 6500 to High --: 7000
+2018-11-21 09:24:06,472 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-15] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:06,518 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Processed ==::: Low  -- : 3000 to High --: 3500
+2018-11-21 09:24:06,727 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:06,732 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 7000 to High --: 7500
+2018-11-21 09:24:07,135 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:07,140 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 6000 to High --: 6500
+2018-11-21 09:24:09,195 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:24:09,196 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:24:09,196 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:24:09,197 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:24:09,197 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:24:09,198 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:24:09,198 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:24:09,198 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:24:09,199 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:24:09,199 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:24:09,200 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:24:09,201 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:24:09,201 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:24:09,201 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:24:09,202 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:24:09,203 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Low  -- : 7500 to High --: 8001
+2018-11-21 09:24:09,203 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 5500 to High --: 6000
+2018-11-21 09:24:09,203 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 3500 to High --: 4000
+2018-11-21 09:24:09,204 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 1500 to High --: 2000
+2018-11-21 09:24:14,593 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:24:14,594 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 09:24:14,601 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:24:14,606 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Low  -- : 1000 to High --: 1500
+2018-11-21 09:24:14,606 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 500 to High --: 1000
+2018-11-21 09:24:16,043 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:16,048 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 1500 to High --: 2000
+2018-11-21 09:24:16,049 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:24:16,050 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 0 to High --: 500
+2018-11-21 09:24:18,396 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:18,400 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 500 to High --: 1000
+2018-11-21 09:24:18,401 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:24:18,402 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:24:18,403 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 6500 to High --: 7000
+2018-11-21 09:24:18,521 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-15] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:18,528 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Processed ==::: Low  -- : 1000 to High --: 1500
+2018-11-21 09:24:18,529 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 09:24:18,530 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 09:24:18,531 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Low  -- : 2500 to High --: 3000
+2018-11-21 09:24:19,804 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:19,809 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 0 to High --: 500
+2018-11-21 09:24:19,811 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:24:19,811 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:24:19,813 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 6000 to High --: 6500
+2018-11-21 09:24:19,815 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 3000 to High --: 3500
+2018-11-21 09:24:21,972 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-8] Current Threshold  --> 800
+2018-11-21 09:24:21,974 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-8] Low  -- : 7000 to High --: 7500
+2018-11-21 09:24:22,638 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:22,644 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 6500 to High --: 7000
+2018-11-21 09:24:22,663 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:24:22,691 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:24:22,693 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 4500 to High --: 5000
+2018-11-21 09:24:23,308 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:23,332 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 3500 to High --: 4000
+2018-11-21 09:24:23,338 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:24:23,339 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 2000 to High --: 2500
+2018-11-21 09:24:25,262 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:25,276 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 6000 to High --: 6500
+2018-11-21 09:24:25,292 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:24:25,292 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:24:25,308 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 5000 to High --: 5500
+2018-11-21 09:24:25,316 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 4000 to High --: 4500
+2018-11-21 09:24:25,317 INFO com.cs.log.service.spi.FileProcessorEventService [http-nio-8888-exec-9] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:25,332 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Processed ==::: Low  -- : 7500 to High --: 8001
+2018-11-21 09:24:25,990 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:26,001 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 3000 to High --: 3500
+2018-11-21 09:24:28,084 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-15] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:28,094 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Processed ==::: Low  -- : 2500 to High --: 3000
+2018-11-21 09:24:28,114 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-8] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:28,119 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-8] Processed ==::: Low  -- : 7000 to High --: 7500
+2018-11-21 09:24:28,182 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:28,188 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 5500 to High --: 6000
+2018-11-21 09:24:28,359 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:28,367 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 2000 to High --: 2500
+2018-11-21 09:24:28,402 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:28,411 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 4500 to High --: 5000
+2018-11-21 09:24:28,884 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:28,888 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 4000 to High --: 4500
+2018-11-21 09:24:29,520 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:29,523 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 5000 to High --: 5500
+2018-11-21 09:24:29,614 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:24:29,618 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:24:29,621 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:24:29,623 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:24:29,623 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:24:29,625 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:24:29,625 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:24:29,627 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:24:29,630 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:24:29,631 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:24:29,632 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:24:29,633 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Low  -- : 5250 to High --: 6000
+2018-11-21 09:24:29,635 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 3750 to High --: 4500
+2018-11-21 09:24:29,636 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 2250 to High --: 3000
+2018-11-21 09:24:29,637 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 750 to High --: 1500
+2018-11-21 09:24:34,204 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:24:34,205 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 3000 to High --: 3750
+2018-11-21 09:24:34,557 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:24:34,561 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 4500 to High --: 5250
+2018-11-21 09:24:34,750 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-8] Current Threshold  --> 800
+2018-11-21 09:24:34,777 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-8] Low  -- : 1500 to High --: 2250
+2018-11-21 09:24:37,980 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:37,989 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 3750 to High --: 4500
+2018-11-21 09:24:37,990 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 09:24:37,990 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Low  -- : 0 to High --: 750
+2018-11-21 09:24:40,880 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:40,887 INFO com.cs.log.service.spi.FileProcessorEventService [http-nio-8888-exec-9] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:40,891 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Processed ==::: Low  -- : 5250 to High --: 6000
+2018-11-21 09:24:40,995 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 3000 to High --: 3750
+2018-11-21 09:24:43,546 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-8] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:43,557 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-8] Processed ==::: Low  -- : 1500 to High --: 2250
+2018-11-21 09:24:43,698 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:43,708 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 750 to High --: 1500
+2018-11-21 09:24:44,316 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:44,331 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 4500 to High --: 5250
+2018-11-21 09:24:44,451 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:44,461 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 2250 to High --: 3000
+2018-11-21 09:24:45,100 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-15] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:24:45,104 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Processed ==::: Low  -- : 0 to High --: 750
+2018-11-21 09:48:23,789 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogParserWebSimulator v1.4.2.RELEASE on Uttam-PC with PID 4576 (D:\Sample Projects\CTS\Log-Parser\target\LogParser.war started by Uttam in D:\Sample Projects\CTS\Log-Parser)
+2018-11-21 09:48:23,922 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2018-11-21 09:48:23,925 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2018-11-21 09:48:24,833 INFO org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@663c9e7a: startup date [Wed Nov 21 09:48:24 IST 2018]; root of context hierarchy
+2018-11-21 09:48:26,858 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.2.4.Final
+2018-11-21 09:48:46,591 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2ec905e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-21 09:48:54,544 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [main] Tomcat initialized with port(s): 8888 (http)
+2018-11-21 09:48:54,819 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service Tomcat
+2018-11-21 09:48:54,838 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-11-21 09:49:13,656 INFO org.apache.juli.logging.DirectJDKLog [localhost-startStop-1] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-11-21 09:49:16,767 INFO org.apache.juli.logging.DirectJDKLog [localhost-startStop-1] Initializing Spring embedded WebApplicationContext
+2018-11-21 09:49:16,769 INFO org.springframework.boot.context.embedded.EmbeddedWebApplicationContext [localhost-startStop-1] Root WebApplicationContext: initialization completed in 51939 ms
+2018-11-21 09:49:19,230 INFO org.springframework.boot.web.servlet.ServletRegistrationBean [localhost-startStop-1] Mapping servlet: 'dispatcherServlet' to [/]
+2018-11-21 09:49:19,419 INFO org.springframework.boot.web.servlet.AbstractFilterRegistrationBean [localhost-startStop-1] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-21 09:49:24,627 INFO org.springframework.jdbc.datasource.init.ScriptUtils [main] Executing SQL script from URL [jar:file:/D:/Sample%20Projects/CTS/Log-Parser/target/LogParser.war!/WEB-INF/classes!/schema.sql]
+2018-11-21 09:49:24,698 INFO org.springframework.jdbc.datasource.init.ScriptUtils [main] Executed SQL script from URL [jar:file:/D:/Sample%20Projects/CTS/Log-Parser/target/LogParser.war!/WEB-INF/classes!/schema.sql] in 68 ms.
+2018-11-21 09:49:24,764 INFO org.springframework.jdbc.datasource.init.ScriptUtils [main] Executing SQL script from URL [jar:file:/D:/Sample%20Projects/CTS/Log-Parser/target/LogParser.war!/WEB-INF/classes!/data.sql]
+2018-11-21 09:49:24,777 INFO org.springframework.jdbc.datasource.init.ScriptUtils [main] Executed SQL script from URL [jar:file:/D:/Sample%20Projects/CTS/Log-Parser/target/LogParser.war!/WEB-INF/classes!/data.sql] in 11 ms.
+2018-11-21 09:49:26,466 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-11-21 09:49:26,645 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-11-21 09:49:27,731 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.0.11.Final}
+2018-11-21 09:49:27,779 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2018-11-21 09:49:27,793 INFO org.hibernate.cfg.Environment [main] HHH000021: Bytecode provider name : javassist
+2018-11-21 09:49:28,519 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-11-21 09:49:31,086 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-11-21 09:49:36,353 INFO org.hibernate.tool.hbm2ddl.SchemaExport [main] HHH000227: Running hbm2ddl schema export
+2018-11-21 09:49:36,473 INFO org.hibernate.tool.hbm2ddl.SchemaExport [main] HHH000230: Schema export complete
+2018-11-21 09:49:36,551 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2018-11-21 09:49:38,116 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-11-21 09:49:41,794 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/]}" onto public java.lang.String com.cs.log.controller.LoginController.todoApp(java.util.Map<java.lang.String, java.lang.Object>)
+2018-11-21 09:49:41,817 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/eventList],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.cs.log.controller.LogParserController.list(com.cs.log.dto.DataTableProps,org.springframework.web.servlet.ModelAndView)
+2018-11-21 09:49:41,820 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/startFileProcessor],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.cs.log.controller.LogParserController.startFileProcessor(java.lang.String)
+2018-11-21 09:49:41,823 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/prepareJsonData],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.cs.log.controller.LogParserController.prepareJsonData(java.lang.String,java.lang.Long)
+2018-11-21 09:49:41,827 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/getDataPreparationStatusForFile],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.cs.log.dto.ProcessStatus> com.cs.log.controller.LogParserController.getDataPreparationStatusForFile(java.lang.String)
+2018-11-21 09:49:41,832 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/getDataParsingStatusForFile],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.cs.log.dto.ProcessStatus> com.cs.log.controller.LogParserController.getDataParsingStatusForFile(java.lang.String)
+2018-11-21 09:49:41,865 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-11-21 09:49:41,868 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-21 09:49:42,713 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping [main] Mapped URL path [/resource/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-21 09:49:42,763 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping [main] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+2018-11-21 09:49:44,543 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@663c9e7a: startup date [Wed Nov 21 09:48:24 IST 2018]; root of context hierarchy
+2018-11-21 09:49:55,166 INFO org.springframework.jmx.export.MBeanExporter [main] Registering beans for JMX exposure on startup
+2018-11-21 09:49:55,362 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8888"]
+2018-11-21 09:49:55,623 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler [http-nio-8888]
+2018-11-21 09:49:55,909 INFO org.apache.juli.logging.DirectJDKLog [main] Using a shared selector for servlet write/read
+2018-11-21 09:49:56,568 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [main] Tomcat started on port(s): 8888 (http)
+2018-11-21 09:49:56,667 INFO org.springframework.boot.StartupInfoLogger [main] Started LogParserWebSimulator in 99.299 seconds (JVM running for 105.637)
+2018-11-21 09:49:57,333 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8888-exec-1] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-21 09:49:57,334 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8888-exec-1] FrameworkServlet 'dispatcherServlet': initialization started
+2018-11-21 09:50:01,274 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8888-exec-1] FrameworkServlet 'dispatcherServlet': initialization completed in 3938 ms
+2018-11-21 09:50:16,176 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8888-exec-1] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [366] milliseconds.
+2018-11-21 09:50:32,955 INFO com.cs.log.service.util.LogJsonParser [ForkJoinPool.commonPool-worker-1] JSON file created successfully at - D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:50:48,392 INFO com.cs.log.service.util.FileChunker [http-nio-8888-exec-9] new file created 'D:\Sample Projects\CTS\Log-Parser\data\staging\LogParser_split\LogParser_01.json
+2018-11-21 09:50:49,237 INFO com.cs.log.service.util.FileChunker [http-nio-8888-exec-9] , 216002 lines written to file
+2018-11-21 09:50:49,239 INFO com.cs.log.service.util.FileChunker [http-nio-8888-exec-9] file 'LogParser.json' split into 1 files
+2018-11-21 09:50:51,344 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:50:51,348 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:50:51,350 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:50:51,352 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:50:51,352 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:50:51,353 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:50:51,354 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:50:51,358 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:50:51,360 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:50:51,361 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:50:51,363 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:50:51,365 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:50:51,366 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 7500 to High --: 8001
+2018-11-21 09:50:51,369 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 3500 to High --: 4000
+2018-11-21 09:50:51,370 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 1500 to High --: 2000
+2018-11-21 09:50:53,746 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:50:53,749 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:50:53,753 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:50:53,766 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 5500 to High --: 6000
+2018-11-21 09:50:54,673 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:50:54,675 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:50:54,679 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 4500 to High --: 5000
+2018-11-21 09:50:55,494 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:50:55,497 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 5000 to High --: 5500
+2018-11-21 09:50:58,581 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:50:58,611 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 5000 to High --: 5500
+2018-11-21 09:50:58,665 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:50:58,675 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:50:58,679 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 6500 to High --: 7000
+2018-11-21 09:51:00,011 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:00,024 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 5500 to High --: 6000
+2018-11-21 09:51:00,025 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:51:00,026 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 4000 to High --: 4500
+2018-11-21 09:51:01,295 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:01,309 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 4000 to High --: 4500
+2018-11-21 09:51:01,316 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 09:51:01,318 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Low  -- : 6000 to High --: 6500
+2018-11-21 09:51:03,043 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-15] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:03,051 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Processed ==::: Low  -- : 6000 to High --: 6500
+2018-11-21 09:51:03,061 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 09:51:03,066 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Low  -- : 7000 to High --: 7500
+2018-11-21 09:51:04,949 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:04,971 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 4500 to High --: 5000
+2018-11-21 09:51:04,976 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:51:04,979 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:51:04,986 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:51:04,991 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 500 to High --: 1000
+2018-11-21 09:51:05,013 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 0 to High --: 500
+2018-11-21 09:51:05,533 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:05,543 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 6500 to High --: 7000
+2018-11-21 09:51:05,547 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:51:05,549 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:51:05,957 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 2500 to High --: 3000
+2018-11-21 09:51:07,154 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-15] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:07,165 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Processed ==::: Low  -- : 7000 to High --: 7500
+2018-11-21 09:51:07,168 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 09:51:07,189 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Low  -- : 3000 to High --: 3500
+2018-11-21 09:51:08,407 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:08,437 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 7500 to High --: 8001
+2018-11-21 09:51:08,665 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:08,680 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 500 to High --: 1000
+2018-11-21 09:51:08,792 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:08,803 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 0 to High --: 500
+2018-11-21 09:51:08,865 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:51:08,866 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:51:08,878 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 2000 to High --: 2500
+2018-11-21 09:51:08,899 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 1000 to High --: 1500
+2018-11-21 09:51:09,559 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-15] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:09,570 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Processed ==::: Low  -- : 3000 to High --: 3500
+2018-11-21 09:51:11,510 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:11,525 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 1500 to High --: 2000
+2018-11-21 09:51:11,750 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:11,751 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:11,769 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 3500 to High --: 4000
+2018-11-21 09:51:11,772 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 2000 to High --: 2500
+2018-11-21 09:51:11,790 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:11,800 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 1000 to High --: 1500
+2018-11-21 09:51:11,814 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:11,818 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 2500 to High --: 3000
+2018-11-21 09:51:12,014 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:51:12,016 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:51:12,016 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:51:12,018 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:51:12,019 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:51:12,020 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:51:12,022 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:51:12,023 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:51:12,025 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:51:12,029 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:51:12,030 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 09:51:12,031 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:51:12,032 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 7500 to High --: 8001
+2018-11-21 09:51:12,032 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 5500 to High --: 6000
+2018-11-21 09:51:12,033 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 3500 to High --: 4000
+2018-11-21 09:51:13,377 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:51:13,379 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:51:13,380 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 6500 to High --: 7000
+2018-11-21 09:51:13,475 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:51:13,477 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 7000 to High --: 7500
+2018-11-21 09:51:13,597 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:51:13,599 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:51:13,600 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:51:13,601 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 1500 to High --: 2000
+2018-11-21 09:51:14,497 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 09:51:14,504 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 09:51:14,508 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Low  -- : 2500 to High --: 3000
+2018-11-21 09:51:15,262 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:15,271 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 7000 to High --: 7500
+2018-11-21 09:51:15,272 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:51:15,274 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:51:15,275 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 4500 to High --: 5000
+2018-11-21 09:51:15,679 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:15,687 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 7500 to High --: 8001
+2018-11-21 09:51:15,689 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:51:15,693 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 6000 to High --: 6500
+2018-11-21 09:51:16,622 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:16,627 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 6000 to High --: 6500
+2018-11-21 09:51:16,628 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:51:16,628 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 3000 to High --: 3500
+2018-11-21 09:51:17,398 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:17,403 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 3000 to High --: 3500
+2018-11-21 09:51:17,408 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:51:17,411 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 5000 to High --: 5500
+2018-11-21 09:51:18,688 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:18,695 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 3500 to High --: 4000
+2018-11-21 09:51:18,710 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:51:18,711 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 2000 to High --: 2500
+2018-11-21 09:51:18,772 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:18,780 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 6500 to High --: 7000
+2018-11-21 09:51:18,781 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:51:18,782 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 4000 to High --: 4500
+2018-11-21 09:51:19,222 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:19,271 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 5000 to High --: 5500
+2018-11-21 09:51:20,126 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:20,132 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 2000 to High --: 2500
+2018-11-21 09:51:20,136 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:51:20,137 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:51:20,140 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 500 to High --: 1000
+2018-11-21 09:51:20,230 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:20,237 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 4000 to High --: 4500
+2018-11-21 09:51:20,241 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 09:51:20,242 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 1000 to High --: 1500
+2018-11-21 09:51:21,644 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:21,651 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 4500 to High --: 5000
+2018-11-21 09:51:21,658 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 09:51:21,712 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 0 to High --: 500
+2018-11-21 09:51:21,972 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-15] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:21,982 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Processed ==::: Low  -- : 2500 to High --: 3000
+2018-11-21 09:51:22,474 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:22,481 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 1000 to High --: 1500
+2018-11-21 09:51:23,389 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:23,396 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 5500 to High --: 6000
+2018-11-21 09:51:23,743 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:23,759 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 0 to High --: 500
+2018-11-21 09:51:23,781 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:23,790 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 500 to High --: 1000
+2018-11-21 09:51:23,888 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:23,894 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 1500 to High --: 2000
+2018-11-21 09:51:23,960 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:51:23,968 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:51:23,970 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:51:23,971 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Current Threshold  --> 800
+2018-11-21 09:51:23,971 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 09:51:23,973 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 09:51:23,974 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 09:51:23,975 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Low  -- : 1500 to High --: 2000
+2018-11-21 09:51:23,979 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 1000 to High --: 1500
+2018-11-21 09:51:23,979 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 500 to High --: 1000
+2018-11-21 09:51:23,980 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 0 to High --: 500
+2018-11-21 09:51:26,375 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:26,381 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 0 to High --: 500
+2018-11-21 09:51:26,462 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:26,468 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 500 to High --: 1000
+2018-11-21 09:51:26,839 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:26,848 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 1000 to High --: 1500
+2018-11-21 09:51:27,016 INFO com.cs.log.service.spi.FileProcessorEventService [http-nio-8888-exec-9] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 09:51:27,018 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-9] Processed ==::: Low  -- : 1500 to High --: 2000
+2018-11-21 09:56:26,712 INFO org.springframework.context.support.AbstractApplicationContext [Thread-4] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@663c9e7a: startup date [Wed Nov 21 09:48:24 IST 2018]; root of context hierarchy
+2018-11-21 09:56:26,722 INFO org.springframework.jmx.export.MBeanExporter [Thread-4] Unregistering JMX-exposed beans on shutdown
+2018-11-21 09:56:26,725 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-4] Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-11-21 09:56:26,730 INFO org.hibernate.tool.hbm2ddl.SchemaExport [Thread-4] HHH000227: Running hbm2ddl schema export
+2018-11-21 09:56:26,757 INFO org.hibernate.tool.hbm2ddl.SchemaExport [Thread-4] HHH000230: Schema export complete
+2018-11-21 09:58:13,033 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogParserWebSimulator v1.4.2.RELEASE on Uttam-PC with PID 2292 (D:\Sample Projects\CTS\Log-Parser\target\LogParser.war started by Uttam in D:\Sample Projects\CTS\Log-Parser)
+2018-11-21 09:58:13,089 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2018-11-21 09:58:13,092 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2018-11-21 09:58:14,307 INFO org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@663c9e7a: startup date [Wed Nov 21 09:58:14 IST 2018]; root of context hierarchy
+2018-11-21 09:58:15,369 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.2.4.Final
+2018-11-21 09:58:38,146 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$385bf403] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-21 09:58:45,711 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [main] Tomcat initialized with port(s): 8888 (http)
+2018-11-21 09:58:45,914 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service Tomcat
+2018-11-21 09:58:45,936 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-11-21 09:59:01,417 INFO org.apache.juli.logging.DirectJDKLog [localhost-startStop-1] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-11-21 09:59:03,381 INFO org.apache.juli.logging.DirectJDKLog [localhost-startStop-1] Initializing Spring embedded WebApplicationContext
+2018-11-21 09:59:03,383 INFO org.springframework.boot.context.embedded.EmbeddedWebApplicationContext [localhost-startStop-1] Root WebApplicationContext: initialization completed in 49077 ms
+2018-11-21 09:59:04,788 INFO org.springframework.boot.web.servlet.ServletRegistrationBean [localhost-startStop-1] Mapping servlet: 'dispatcherServlet' to [/]
+2018-11-21 09:59:04,855 INFO org.springframework.boot.web.servlet.AbstractFilterRegistrationBean [localhost-startStop-1] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-21 09:59:08,391 INFO org.springframework.jdbc.datasource.init.ScriptUtils [main] Executing SQL script from URL [jar:file:/D:/Sample%20Projects/CTS/Log-Parser/target/LogParser.war!/WEB-INF/classes!/schema.sql]
+2018-11-21 09:59:08,451 INFO org.springframework.jdbc.datasource.init.ScriptUtils [main] Executed SQL script from URL [jar:file:/D:/Sample%20Projects/CTS/Log-Parser/target/LogParser.war!/WEB-INF/classes!/schema.sql] in 57 ms.
+2018-11-21 09:59:08,504 INFO org.springframework.jdbc.datasource.init.ScriptUtils [main] Executing SQL script from URL [jar:file:/D:/Sample%20Projects/CTS/Log-Parser/target/LogParser.war!/WEB-INF/classes!/data.sql]
+2018-11-21 09:59:08,521 INFO org.springframework.jdbc.datasource.init.ScriptUtils [main] Executed SQL script from URL [jar:file:/D:/Sample%20Projects/CTS/Log-Parser/target/LogParser.war!/WEB-INF/classes!/data.sql] in 13 ms.
+2018-11-21 09:59:10,061 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-11-21 09:59:10,225 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-11-21 09:59:11,225 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.0.11.Final}
+2018-11-21 09:59:11,266 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2018-11-21 09:59:11,279 INFO org.hibernate.cfg.Environment [main] HHH000021: Bytecode provider name : javassist
+2018-11-21 09:59:12,000 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-11-21 09:59:15,318 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-11-21 09:59:20,341 INFO org.hibernate.tool.hbm2ddl.SchemaExport [main] HHH000227: Running hbm2ddl schema export
+2018-11-21 09:59:20,425 INFO org.hibernate.tool.hbm2ddl.SchemaExport [main] HHH000230: Schema export complete
+2018-11-21 09:59:20,492 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2018-11-21 09:59:21,769 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-11-21 09:59:24,952 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/]}" onto public java.lang.String com.cs.log.controller.LoginController.todoApp(java.util.Map<java.lang.String, java.lang.Object>)
+2018-11-21 09:59:24,971 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/eventList],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.cs.log.controller.LogParserController.list(com.cs.log.dto.DataTableProps,org.springframework.web.servlet.ModelAndView)
+2018-11-21 09:59:24,975 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/getDataPreparationStatusForFile],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.cs.log.dto.ProcessStatus> com.cs.log.controller.LogParserController.getDataPreparationStatusForFile(java.lang.String)
+2018-11-21 09:59:24,979 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/getDataParsingStatusForFile],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.cs.log.dto.ProcessStatus> com.cs.log.controller.LogParserController.getDataParsingStatusForFile(java.lang.String)
+2018-11-21 09:59:24,984 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/startFileProcessor],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.cs.log.controller.LogParserController.startFileProcessor(java.lang.String)
+2018-11-21 09:59:24,988 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/prepareJsonData],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.cs.log.controller.LogParserController.prepareJsonData(java.lang.String,java.lang.Long)
+2018-11-21 09:59:25,019 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-11-21 09:59:25,022 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-21 09:59:25,653 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping [main] Mapped URL path [/resource/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-21 09:59:25,695 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping [main] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+2018-11-21 09:59:27,153 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@663c9e7a: startup date [Wed Nov 21 09:58:14 IST 2018]; root of context hierarchy
+2018-11-21 09:59:35,714 INFO org.springframework.jmx.export.MBeanExporter [main] Registering beans for JMX exposure on startup
+2018-11-21 09:59:35,878 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8888"]
+2018-11-21 09:59:36,150 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler [http-nio-8888]
+2018-11-21 09:59:36,264 INFO org.apache.juli.logging.DirectJDKLog [main] Using a shared selector for servlet write/read
+2018-11-21 09:59:36,832 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [main] Tomcat started on port(s): 8888 (http)
+2018-11-21 09:59:36,977 INFO org.springframework.boot.StartupInfoLogger [main] Started LogParserWebSimulator in 90.789 seconds (JVM running for 98.255)
+2018-11-21 09:59:42,272 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8888-exec-1] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-21 09:59:42,276 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8888-exec-1] FrameworkServlet 'dispatcherServlet': initialization started
+2018-11-21 09:59:45,890 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8888-exec-1] FrameworkServlet 'dispatcherServlet': initialization completed in 3604 ms
+2018-11-21 10:00:15,499 INFO com.cs.log.service.util.LogJsonParser [ForkJoinPool.commonPool-worker-1] JSON file created successfully at - D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:01:32,734 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8888-exec-1] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [328] milliseconds.
+2018-11-21 10:01:44,497 INFO com.cs.log.service.util.LogJsonParser [ForkJoinPool.commonPool-worker-1] JSON file created successfully at - D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:01:58,365 INFO com.cs.log.service.util.FileChunker [http-nio-8888-exec-10] new file created 'D:\Sample Projects\CTS\Log-Parser\data\staging\LogParser_split\LogParser_01.json
+2018-11-21 10:01:59,083 INFO com.cs.log.service.util.FileChunker [http-nio-8888-exec-10] , 216002 lines written to file
+2018-11-21 10:01:59,098 INFO com.cs.log.service.util.FileChunker [http-nio-8888-exec-10] file 'LogParser.json' split into 1 files
+2018-11-21 10:02:01,844 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-10] Current Threshold  --> 800
+2018-11-21 10:02:01,844 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-10] Current Threshold  --> 800
+2018-11-21 10:02:01,844 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 10:02:01,859 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-10] Current Threshold  --> 800
+2018-11-21 10:02:01,859 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 10:02:01,875 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 10:02:01,875 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-10] Current Threshold  --> 800
+2018-11-21 10:02:01,875 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 10:02:01,875 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 10:02:01,875 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 10:02:01,891 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-10] Current Threshold  --> 800
+2018-11-21 10:02:01,891 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 10:02:01,891 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 10:02:01,906 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 10:02:01,906 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-10] Low  -- : 7500 to High --: 8001
+2018-11-21 10:02:01,906 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 6500 to High --: 7000
+2018-11-21 10:02:01,906 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 5500 to High --: 6000
+2018-11-21 10:02:01,906 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 3500 to High --: 4000
+2018-11-21 10:02:04,199 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 10:02:04,199 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 7000 to High --: 7500
+2018-11-21 10:02:06,883 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:06,898 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 7000 to High --: 7500
+2018-11-21 10:02:06,929 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 10:02:06,929 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 10:02:06,929 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 10:02:06,929 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 1500 to High --: 2000
+2018-11-21 10:02:08,115 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 10:02:08,115 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 10:02:08,115 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 2500 to High --: 3000
+2018-11-21 10:02:08,349 INFO com.cs.log.service.spi.FileProcessorEventService [http-nio-8888-exec-10] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:08,365 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-10] Processed ==::: Low  -- : 7500 to High --: 8001
+2018-11-21 10:02:08,848 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 10:02:08,848 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 10:02:08,848 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 500 to High --: 1000
+2018-11-21 10:02:09,410 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 10:02:09,410 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Low  -- : 6000 to High --: 6500
+2018-11-21 10:02:11,438 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-15] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:11,469 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Processed ==::: Low  -- : 6000 to High --: 6500
+2018-11-21 10:02:11,469 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 10:02:11,485 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 10:02:11,485 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Low  -- : 4500 to High --: 5000
+2018-11-21 10:02:13,169 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:13,185 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 6500 to High --: 7000
+2018-11-21 10:02:13,185 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 10:02:13,201 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 1000 to High --: 1500
+2018-11-21 10:02:15,291 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:15,291 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 1000 to High --: 1500
+2018-11-21 10:02:15,338 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 10:02:15,338 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 0 to High --: 500
+2018-11-21 10:02:18,255 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:18,271 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 1500 to High --: 2000
+2018-11-21 10:02:18,380 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:18,395 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 0 to High --: 500
+2018-11-21 10:02:18,395 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 10:02:18,411 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 2000 to High --: 2500
+2018-11-21 10:02:20,221 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:20,236 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 2000 to High --: 2500
+2018-11-21 10:02:20,252 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 10:02:20,252 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 4000 to High --: 4500
+2018-11-21 10:02:21,406 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:21,437 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 2500 to High --: 3000
+2018-11-21 10:02:21,437 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 10:02:21,437 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 3000 to High --: 3500
+2018-11-21 10:02:22,124 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:22,139 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 4000 to High --: 4500
+2018-11-21 10:02:22,155 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 10:02:22,249 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 5000 to High --: 5500
+2018-11-21 10:02:24,557 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:24,589 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 3500 to High --: 4000
+2018-11-21 10:02:24,823 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-15] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:24,838 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Processed ==::: Low  -- : 4500 to High --: 5000
+2018-11-21 10:02:24,901 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:24,901 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 500 to High --: 1000
+2018-11-21 10:02:24,932 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:24,979 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 3000 to High --: 3500
+2018-11-21 10:02:25,025 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:25,041 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 5000 to High --: 5500
+2018-11-21 10:02:25,493 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:25,509 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 5500 to High --: 6000
+2018-11-21 10:02:25,743 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-10] Current Threshold  --> 800
+2018-11-21 10:02:25,759 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-10] Current Threshold  --> 800
+2018-11-21 10:02:25,759 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 10:02:25,759 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-10] Current Threshold  --> 800
+2018-11-21 10:02:25,759 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 10:02:25,759 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 10:02:25,759 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 10:02:25,759 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-10] Current Threshold  --> 800
+2018-11-21 10:02:25,759 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 10:02:25,759 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 10:02:25,759 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 10:02:25,759 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-10] Current Threshold  --> 800
+2018-11-21 10:02:25,774 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 10:02:25,774 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 10:02:25,774 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Current Threshold  --> 800
+2018-11-21 10:02:25,774 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-10] Low  -- : 7500 to High --: 8001
+2018-11-21 10:02:25,774 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 5500 to High --: 6000
+2018-11-21 10:02:25,774 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 3500 to High --: 4000
+2018-11-21 10:02:25,774 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Low  -- : 1500 to High --: 2000
+2018-11-21 10:02:27,350 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 10:02:27,350 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 10:02:27,350 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 6500 to High --: 7000
+2018-11-21 10:02:27,475 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 10:02:27,475 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 6000 to High --: 6500
+2018-11-21 10:02:27,599 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 10:02:27,599 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 10:02:27,599 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 500 to High --: 1000
+2018-11-21 10:02:28,707 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 10:02:28,707 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Low  -- : 0 to High --: 500
+2018-11-21 10:02:29,237 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:29,253 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 6500 to High --: 7000
+2018-11-21 10:02:29,378 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:29,378 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 6000 to High --: 6500
+2018-11-21 10:02:29,378 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 10:02:29,378 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 10:02:29,378 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 2500 to High --: 3000
+2018-11-21 10:02:29,378 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 10:02:29,393 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 7000 to High --: 7500
+2018-11-21 10:02:30,719 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-15] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:30,735 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Processed ==::: Low  -- : 0 to High --: 500
+2018-11-21 10:02:30,735 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 10:02:30,735 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Low  -- : 2000 to High --: 2500
+2018-11-21 10:02:31,749 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:31,765 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 500 to High --: 1000
+2018-11-21 10:02:31,765 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 10:02:31,780 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 1000 to High --: 1500
+2018-11-21 10:02:32,030 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:32,139 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 7000 to High --: 7500
+2018-11-21 10:02:32,155 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 10:02:32,295 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Current Threshold  --> 800
+2018-11-21 10:02:32,326 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Low  -- : 4500 to High --: 5000
+2018-11-21 10:02:34,229 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:34,229 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 2500 to High --: 3000
+2018-11-21 10:02:34,588 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-1] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:34,588 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-1] Processed ==::: Low  -- : 1500 to High --: 2000
+2018-11-21 10:02:34,619 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-15] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:34,635 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Processed ==::: Low  -- : 2000 to High --: 2500
+2018-11-21 10:02:34,635 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 10:02:34,635 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:34,635 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Current Threshold  --> 800
+2018-11-21 10:02:34,635 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Low  -- : 3000 to High --: 3500
+2018-11-21 10:02:34,666 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Low  -- : 5000 to High --: 5500
+2018-11-21 10:02:34,666 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 1000 to High --: 1500
+2018-11-21 10:02:34,682 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Current Threshold  --> 800
+2018-11-21 10:02:34,682 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Low  -- : 4000 to High --: 4500
+2018-11-21 10:02:37,615 INFO com.cs.log.service.spi.FileProcessorEventService [http-nio-8888-exec-10] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:37,615 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-10] Processed ==::: Low  -- : 7500 to High --: 8001
+2018-11-21 10:02:37,739 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:37,739 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 5500 to High --: 6000
+2018-11-21 10:02:39,393 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-4] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:39,409 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-4] Processed ==::: Low  -- : 5000 to High --: 5500
+2018-11-21 10:02:39,471 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-5] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:39,487 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-5] Processed ==::: Low  -- : 4500 to High --: 5000
+2018-11-21 10:02:39,643 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:39,658 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 3500 to High --: 4000
+2018-11-21 10:02:39,674 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-6] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:39,689 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-6] Processed ==::: Low  -- : 4000 to High --: 4500
+2018-11-21 10:02:39,689 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-15] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:39,689 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Processed ==::: Low  -- : 3000 to High --: 3500
+2018-11-21 10:02:39,736 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-10] Current Threshold  --> 800
+2018-11-21 10:02:39,736 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-10] Current Threshold  --> 800
+2018-11-21 10:02:39,736 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 10:02:39,752 INFO com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-10] Current Threshold  --> 800
+2018-11-21 10:02:39,752 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Current Threshold  --> 800
+2018-11-21 10:02:39,752 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Current Threshold  --> 800
+2018-11-21 10:02:39,752 INFO com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Current Threshold  --> 800
+2018-11-21 10:02:39,752 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-10] Low  -- : 1500 to High --: 2000
+2018-11-21 10:02:39,752 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Low  -- : 1000 to High --: 1500
+2018-11-21 10:02:39,752 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Low  -- : 500 to High --: 1000
+2018-11-21 10:02:39,752 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Low  -- : 0 to High --: 500
+2018-11-21 10:02:41,920 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-3] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:41,936 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-3] Processed ==::: Low  -- : 0 to High --: 500
+2018-11-21 10:02:42,607 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-15] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:42,653 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-15] Processed ==::: Low  -- : 1000 to High --: 1500
+2018-11-21 10:02:42,747 INFO com.cs.log.service.spi.FileProcessorEventService [ForkJoinPool.commonPool-worker-2] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:42,747 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [ForkJoinPool.commonPool-worker-2] Processed ==::: Low  -- : 500 to High --: 1000
+2018-11-21 10:02:43,106 INFO com.cs.log.service.spi.FileProcessorEventService [http-nio-8888-exec-10] Listened the event for file ::: D:/Sample Projects/CTS/Log-Parser/data/staging\LogParser.json
+2018-11-21 10:02:43,122 DEBUG com.cs.log.service.util.AbstractRecursiveLogAction [http-nio-8888-exec-10] Processed ==::: Low  -- : 1500 to High --: 2000
+2018-11-21 10:02:55,851 INFO org.springframework.context.support.AbstractApplicationContext [Thread-4] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@663c9e7a: startup date [Wed Nov 21 09:58:14 IST 2018]; root of context hierarchy
+2018-11-21 10:02:55,851 INFO org.springframework.jmx.export.MBeanExporter [Thread-4] Unregistering JMX-exposed beans on shutdown
+2018-11-21 10:02:55,851 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-4] Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-11-21 10:02:55,851 INFO org.hibernate.tool.hbm2ddl.SchemaExport [Thread-4] HHH000227: Running hbm2ddl schema export
+2018-11-21 10:02:55,882 INFO org.hibernate.tool.hbm2ddl.SchemaExport [Thread-4] HHH000230: Schema export complete

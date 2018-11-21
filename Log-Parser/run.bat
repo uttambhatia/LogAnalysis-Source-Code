@@ -1,0 +1,1 @@
+java -Xmx2048m -Xms1024m -jar -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n  -Dserver.port=8888 target/LogParser.war 
